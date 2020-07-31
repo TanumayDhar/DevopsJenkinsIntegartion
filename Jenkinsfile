@@ -14,7 +14,9 @@
                
                
                //checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'e3170388-caf7-4486-b50a-2ff070d7017f', url: 'https://github.com/TanumayDhar/DevopsTest1.git']]])
-                git 'https://github.com/TanumayDhar/DevopsJenkinsIntegartion.git'     
+                //git 'https://github.com/TanumayDhar/DevopsJenkinsIntegartion.git'     
+             checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'e3170388-caf7-4486-b50a-2ff070d7017f', url: 'https://github.com/TanumayDhar/DevopsJenkinsIntegartion.git']]])
+             
             }
         }
         stage('Build') {
