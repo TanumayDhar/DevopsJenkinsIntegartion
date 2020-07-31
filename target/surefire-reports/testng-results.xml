@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[Browser is maximized]]>
+    </line>
+    <line>
+      <![CDATA[Url is hit]]>
+    </line>
+    <line>
+      <![CDATA[Google]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closed and to test the POll SCM feature]]>
+    </line>
+  </reporter-output>
+  <suite name="TestSuite01" duration-ms="19025" started-at="2020-07-30T14:43:26Z" finished-at="2020-07-30T14:43:45Z">
+    <groups>
+    </groups>
+    <test name="seleniumDemo" duration-ms="19025" started-at="2020-07-30T14:43:26Z" finished-at="2020-07-30T14:43:45Z">
+      <class name="com.devops.seleniumDemo.NewTest">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:1, instance:com.devops.seleniumDemo.NewTest@799d4f69]" name="LaunchBrowser" duration-ms="6118" started-at="2020-07-30T20:13:26Z" finished-at="2020-07-30T20:13:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[Browser is maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="Urlhit()[pri:2, instance:com.devops.seleniumDemo.NewTest@799d4f69]" name="Urlhit" duration-ms="8547" started-at="2020-07-30T20:13:32Z" finished-at="2020-07-30T20:13:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Url is hit]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Urlhit -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:3, instance:com.devops.seleniumDemo.NewTest@799d4f69]" name="CloseBrowser" duration-ms="4346" started-at="2020-07-30T20:13:41Z" finished-at="2020-07-30T20:13:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Google]]>
+            </line>
+            <line>
+              <![CDATA[Browser is closed and to test the POll SCM feature]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.devops.seleniumDemo.NewTest -->
+    </test> <!-- seleniumDemo -->
+  </suite> <!-- TestSuite01 -->
+</testng-results>
