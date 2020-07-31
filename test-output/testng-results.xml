@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[Browser is maximized]]>
+    </line>
+  </reporter-output>
+  <suite name="TestSuite01" duration-ms="7049" started-at="2020-07-29T13:37:33Z" finished-at="2020-07-29T13:37:41Z">
+    <groups>
+    </groups>
+    <test name="seleniumDemo" duration-ms="7049" started-at="2020-07-29T13:37:33Z" finished-at="2020-07-29T13:37:41Z">
+      <class name="com.devops.seleniumDemo.NewTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.devops.seleniumDemo.NewTest@25a65b77]" name="f" duration-ms="7017" started-at="2020-07-29T19:07:33Z" finished-at="2020-07-29T19:07:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[Browser is maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.devops.seleniumDemo.NewTest -->
+    </test> <!-- seleniumDemo -->
+  </suite> <!-- TestSuite01 -->
+</testng-results>
